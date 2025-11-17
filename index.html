@@ -14,82 +14,74 @@
         class="bg-[url(/header_image.png)] bg-cover bg-no-repeat bg-center h-screen bg-[#2F1893] bg-fixed"
         id="home"
       >
-        <!-- NavBar -->
-        <div class="navbar md:flex md:justify-center md:items-center">
-          <div class="navbar-center hidden md:flex md:justify-center md:mt-15">
-            <ul
-              class="menu menu-horizontal px-1 text-xl text-white md:flex md:gap-5"
-            >
-              <li><a href="#home">Home</a></li>
-
-              <li><a href="#features">Features</a></li>
-
-              <li><a href="#">Pricing</a></li>
-
-              <li><a href="#">Testimonials</a></li>
-
-              <li><a href="#">Team</a></li>
-
-              <li class="md:flex md:items-center md:justify-center">
-                <a href="#"
-                  ><ion-icon
-                    name="earth-outline"
-                    class="text-purple-800 text-3xl"
-                  ></ion-icon
-                ></a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="flex justify-end">
-          <div class="dropdown dropdown-end md:hidden">
+        <div class="flex flex-col">
+          <div class="navbar md:flex md:justify-center md:items-center mb-12">
             <div
-              tabindex="0"
-              role="button"
-              class="btn btn-ghost md:hidden h-full"
+              class="navbar-center hidden md:flex md:justify-center md:mt-15"
             >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                class="h-15 w-15 text-purple-950"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
+              <ul
+                class="menu menu-horizontal px-1 text-xl text-white md:flex md:gap-5"
               >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M4 6h16M4 12h8m-8 6h16"
-                />
-              </svg>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Testimonials</a></li>
+                <li><a href="#">Team</a></li>
+                <li class="md:flex md:items-center md:justify-center">
+                  <a href="#"
+                    ><ion-icon
+                      name="earth-outline"
+                      class="text-purple-800 text-3xl"
+                    ></ion-icon
+                  ></a>
+                </li>
+              </ul>
             </div>
-            <ul
-              tabindex="-1"
-              class="menu menu-xl dropdown-content bg-purple-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
-            >
-              <li><a href="#">Home</a></li>
-
-              <li><a href="#">Features</a></li>
-
-              <li><a href="#">Pricing</a></li>
-
-              <li><a href="#">Testimonials</a></li>
-
-              <li><a href="#">Team</a></li>
-
-              <li class="flex justify-start">
-                <a href="#"
-                  ><ion-icon
-                    name="earth-outline"
-                    class="text-purple-800 text-3xl"
-                  ></ion-icon
-                ></a>
-              </li>
-            </ul>
+          </div>
+          <div class="flex justify-end">
+            <div class="dropdown dropdown-end md:hidden">
+              <div
+                tabindex="0"
+                role="button"
+                class="btn btn-ghost md:hidden h-full"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-15 w-15 text-purple-950"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16"
+                  />
+                </svg>
+              </div>
+              <ul
+                tabindex="-1"
+                class="menu menu-xl dropdown-content bg-purple-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
+              >
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Testimonials</a></li>
+                <li><a href="#">Team</a></li>
+                <li class="flex justify-start">
+                  <a href="#"
+                    ><ion-icon
+                      name="earth-outline"
+                      class="text-purple-800 text-3xl"
+                    ></ion-icon
+                  ></a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
-        <!-- Hero -->
-        <div class="container mx-auto mt-30">
+        <div class="container mx-auto my-auto">
           <div class="carousel w-full">
             <div
               id="slide1"
@@ -99,7 +91,9 @@
                 class="flex flex-col gap-10 items-center text-white mx-10 md:p-0 md:mx-0 text-balance"
               >
                 <h2 class="font-semibold text-xl md:text-3xl">Startup 1</h2>
-                <h1 class="text-xl md:text-3xl lg:text-5xl font-semibold">
+                <h1
+                  class="text-xl text-center md:text-3xl lg:text-5xl font-semibold"
+                >
                   Welcome to Startup Company Slide 1
                 </h1>
                 <p class="w-3/4 text-lg md:text-3xl text-center">
@@ -129,17 +123,16 @@
                 class="flex flex-col gap-10 items-center text-white mx-10 md:p-0 md:mx-0 text-balance"
               >
                 <h2 class="font-semibold text-xl md:text-3xl">Startup 2</h2>
-                <h1 class="text-xl md:text-3xl lg:text-5xl font-semibold">
+                <h1
+                  class="text-xl text-center md:text-3xl lg:text-5xl font-semibold"
+                >
                   This is the Startup Company Slide 2
                 </h1>
                 <p class="w-3/4 text-lg md:text-3xl text-center">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Tempore porro obcaecati modi quam cumque tenetur ullam non
                   enim, magnam distinctio. Lorem ipsum dolor sit amet
-                  consectetur adipisicing elit. Ut modi necessitatibus,
-                  voluptate labore quos, esse minima at, quidem sit laudantium
-                  omnis perferendis. Ad sint eaque ut hic perspiciatis saepe
-                  cumque?
+                  consectetur adipisicing elit.
                 </p>
               </div>
               <div
@@ -162,7 +155,9 @@
                 class="flex flex-col gap-10 items-center text-white mx-10 md:p-0 md:mx-0 text-balance"
               >
                 <h2 class="font-semibold text-xl md:text-3xl">Startup 3</h2>
-                <h1 class="text-xl md:text-3xl lg:text-5xl font-semibold">
+                <h1
+                  class="text-xl text-center md:text-3xl lg:text-5xl font-semibold"
+                >
                   Now we are at Startup Company Slide 3
                 </h1>
                 <p class="w-3/4 text-lg md:text-3xl text-center">
@@ -191,7 +186,9 @@
                 class="flex flex-col gap-10 items-center text-white mx-10 md:p-0 md:mx-0 text-balance"
               >
                 <h2 class="font-semibold text-xl md:text-3xl">Startup 4</h2>
-                <h1 class="text-xl md:text-3xl lg:text-5xl font-semibold">
+                <h1
+                  class="text-xl text-center md:text-3xl lg:text-5xl font-semibold"
+                >
                   This is Startup Company Slide 4
                 </h1>
                 <p class="w-3/4 text-lg md:text-3xl text-center">
@@ -214,13 +211,14 @@
                 >
               </div>
             </div>
-
             <div id="slide5" class="carousel-item relative w-full">
               <div
                 class="flex flex-col gap-10 items-center text-white mx-10 md:p-0 md:mx-0 text-balance"
               >
                 <h2 class="font-semibold text-xl md:text-3xl">Startup 5</h2>
-                <h1 class="text-xl md:text-3xl lg:text-5xl font-semibold">
+                <h1
+                  class="text-xl text-center md:text-3xl lg:text-5xl font-semibold"
+                >
                   Finally this is Startup Company Slide 5
                 </h1>
                 <p class="w-3/4 text-lg md:text-3xl text-center">
@@ -244,7 +242,7 @@
               </div>
             </div>
           </div>
-          <div class="flex w-full justify-center gap-3 mt-10 md:mt-20">
+          <div class="flex w-full justify-center gap-3 mt-8">
             <a
               href="#slide1"
               class="slide-indicator btn btn-xs w-2.5 h-2.5 btn-circle btn-ghost active-style"
@@ -272,8 +270,7 @@
             ></a>
           </div>
         </div>
-        <!-- Button -->
-        <div class="flex justify-center items-center mt-10 md:mt-15 lg:mt-20">
+        <div class="flex justify-center items-center py-10">
           <button
             class="btn btn-xl border-none shadow-none bg-[#482BE7] text-white font-normal rounded-4xl hover:bg-purple-900"
           >
@@ -285,11 +282,11 @@
 
       <!--Content-->
       <section
-        class="bg-[url(/content_image.png)] bg-cover bg-no-repeat bg-center h-screen md:h-135 bg-fixed bg-[#2F1893]"
+        class="bg-[url(/content_image.png)] bg-cover bg-no-repeat bg-center h-screen md:h-135 bg-fixed bg-[#2F1893] flex items-center"
         id="content"
       >
         <div
-          class="flex flex-col p-30 md:p-30 h-screen text-balance text-white"
+          class="flex flex-col py-10 md:p-30 w-full text-balance text-white my-auto"
         >
           <h3 class="text-3xl md:text-[40px] text-center">
             Free Design Practice
@@ -297,14 +294,13 @@
           <h1
             class="text-4xl md:text-[45px] font-semibold text-center mt-15 md:mt-8"
           >
-            Powerful Generator and Free Figma Sources
+            Lorem ipsum dolor sit amet.
           </h1>
           <div class="container mx-auto md:w-4/5 mt-15 md:mt-8">
             <p class="text-xl text-center">
-              Startup Framework contains components and complex blocks which can
-              easily be integrated into almost any design. All of the components
-              are made in the same style, and can easily be integrated into
-              projects, allowing you to create hundreds of solutions.
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo
+              ipsa, asperiores laudantium odio error ullam vel. Lorem, ipsum
+              dolor sit amet consectetur adipisicing elit.
             </p>
           </div>
         </div>
@@ -329,7 +325,7 @@
           <div class="mt-15 lg:col-span-2 md:mt-20">
             <div
               id="default-carousel"
-              class="relative w-full opacity-0 scale-95 transition-all duration-5000 ease-out"
+              class="relative w-full opacity-0 scale-95 transition-all duration-5000 ease-out md:flex md:justify-center lg:block"
               data-carousel="slide"
             >
               <!-- Carousel wrapper -->
@@ -815,7 +811,7 @@
               <!-- End of Carousla Wrapper-->
               <!-- Slider indicators -->
               <div
-                class="absolute z-30 flex top-2/3 left-1/2 mt-10 md:top-2/4 lg:flex-col lg:gap-5 -translate-x-1/2 lg:top-1/7 lg:left-6/7 space-x-3"
+                class="absolute z-30 flex top-2/3 left-1/2 mt-10 min-[320px]:top-5/11 min-[338px]:top-5/12 min-[370px]:top-9/10 min-[481px]:top-4/6 min-[599px]:top-3/5 md:top-4/6 lg:flex-col lg:gap-5 -translate-x-1/2 lg:top-1/7 lg:left-6/7 space-x-3"
               >
                 <button
                   type="button"
