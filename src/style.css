@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+@import 'tailwindcss';
+@import 'flowbite/src/themes/default';
+@plugin "daisyui";
+@plugin "flowbite/plugin";
+@source "../node_modules/flowbite";
+
+/* /src/style.css or wherever your Tailwind output is */
+/* Add this block: */
+html {
+  /* This enables a smooth scrolling animation 
+     when clicking on anchor links (like #features). */
+  scroll-behavior: smooth;
+}
+
+/* Define the style for the active button */
+.active-style {
+  background-color: white !important; /* Use your body background color or any distinct color */
+  transform: scale(1.3); /* Make it slightly bigger */
+  transition: all 0.2s ease-in-out;
+}
+
+/* Ensure the default state is visible */
+.btn-xs {
+  border: 1px solid white;
+}
